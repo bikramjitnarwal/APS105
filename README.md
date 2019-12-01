@@ -4,9 +4,9 @@ DNA Search: C program that searches through the an array that contains a sequenc
 
 Encryption: Program which asks a user to enter an encrypted 3-digit code and then prints the real 3-digit code.
 
-Free Coffees: 
+Free Coffees: Calculating how many free coffees one can get with an amount of coupons. 
 
-Integral Calculator
+Integral Calculator: Uses loops to numerically compute the integral of a polynomial function with a user defined boundary & number of rectangles. 
 
 Making Change 	
 
