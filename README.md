@@ -12,12 +12,12 @@ Making Change
 
 Pascals Triangle 
 
-personalMusicLibrary.c
+Personal Music Library
 
-reversiAI.c	
+Reversi AI 	
 
-simpleCalculation.c
+Simple Calculation
 
-theTriangle.c	
+The Triangle	
 
 ticTacToe.c
