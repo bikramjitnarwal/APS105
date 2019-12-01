@@ -8,9 +8,9 @@ Free Coffees:
 
 Integral Calculator
 
-makingChange.c	
+Making Change 	
 
-pascalsTriangle.c	
+Pascals Triangle 
 
 personalMusicLibrary.c
 
