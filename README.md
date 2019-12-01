@@ -1,6 +1,6 @@
 # C_Programming
 
-DNA Search: C program that searches through the an array that contains a sequence of numbers in an array 
+DNA Search: C program that searches through the an array that contains a sequence of numbers in an array.
 
 Encryption: Program which asks a user to enter an encrypted 3-digit code and then prints the real 3-digit code.
 
@@ -16,8 +16,8 @@ Personal Music Library: Uses a linked list to hold the songs in the library.
 
 Reversi AI: Reversi game where the human can play against the computer, with the computer.
 
-Simple Calculation
+Simple Calculation: Basic C program to calculate different fees.
 
-The Triangle	
+The Triangle: C program that uses the * character to draw a triangle of a given number of rows.
 
-Tic Tac Toe
+Tic Tac Toe: Regular tic tac toe game. 
