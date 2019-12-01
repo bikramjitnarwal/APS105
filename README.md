@@ -8,13 +8,13 @@ Free Coffees: Calculating how many free coffees one can get with an amount of co
 
 Integral Calculator: Uses loops to numerically compute the integral of a polynomial function with a user defined boundary & number of rectangles. 
 
-Making Change 	
+Making Change: Determines the number and amount of coins that can make up a specific number of cents.
 
-Pascals Triangle 
+Pascals Triangle: Prints out x rows of Pascals Triangle
 
-Personal Music Library
+Personal Music Library: Uses a linked list to hold the songs in the library.
 
-Reversi AI 	
+Reversi AI: Reversi game where the human can play against the computer, with the computer.
 
 Simple Calculation
 
