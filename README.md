@@ -1,8 +1,8 @@
 # C_Programming
 
-DNA Search: 
+DNA Search: C program that searches through the an array that contains a sequence of numbers in an array 
 
-Encryption: 
+Encryption: Program which asks a user to enter an encrypted 3-digit code and then prints the real 3-digit code.
 
 Free Coffees: 
 
