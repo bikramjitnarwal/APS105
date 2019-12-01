@@ -20,4 +20,4 @@ Simple Calculation
 
 The Triangle	
 
-ticTacToe.c
+Tic Tac Toe
