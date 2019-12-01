@@ -1,5 +1,5 @@
 //
-// Caculating how many free coffees one can get with an amount of coupons. 
+// Calculating how many free coffees one can get with an amount of coupons. 
 //
 
 #include <stdio.h>
