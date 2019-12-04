@@ -4,8 +4,7 @@
 
 #include <stdio.h>
 
-void grammer(int quarter, int dime, int nickle, int penny) 
-{
+void grammer(int quarter, int dime, int nickle, int penny){
   // We have to make sure it does not equal 0 because if user enters in 5, it prints 0 quarter, 0 dime and etc 
 	if(quarter != 0){
 		if(quarter > 1){
@@ -55,8 +54,7 @@ void grammer(int quarter, int dime, int nickle, int penny)
 	}
 }
 
-int main(int argc, char ** argv)
-{
+int main(int argc, char ** argv){
 	int totalCents;
 
 	printf("Please give an amount in cents less than 100: ");
