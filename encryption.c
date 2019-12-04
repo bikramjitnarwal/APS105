@@ -6,8 +6,7 @@
 #include <math.h>
 #include <stdlib.h>
 
-int main(void) 
-{
+int main(void){
 	int code, firstDigit, lastDigit, middleDigit, newMiddleDigit, exponent;
 
 	//Prompts user to enter code
