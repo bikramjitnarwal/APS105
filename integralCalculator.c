@@ -6,8 +6,7 @@
 #include <math.h>
 #include <stdbool.h>
 
-bool validateInput(double left, double right, int n) 
-{
+bool validateInput(double left, double right, int n){
 	if(right < left || left == right || n <= 0 || left < -10 || right > 10){
 		return false;
 	} else {
@@ -16,13 +15,11 @@ bool validateInput(double left, double right, int n)
 }
 
 // Function for the integral calculation
-double evalFunc(double x) 
-{
+double evalFunc(double x){
 	return 2 * pow(x, 2) - 7 * x - 2;
 }
 
-int main(int argc, char ** argv) 
-{
+int main(int argc, char ** argv){
 	int n = 0;
 	double left = 0.0, right = 0.0, deltaX = 0.0;
 	double aL, aM, aR;
