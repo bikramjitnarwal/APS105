@@ -4,8 +4,7 @@
 
 #include <stdio.h>
 
-void drawTriangle(rows) 
-{
+void drawTriangle(rows){
 	int rowCounter, colCounter;
 
 	// Loop for the entire triangle being printed
@@ -34,8 +33,7 @@ void drawTriangle(rows)
 	printf("\n");
 }
 
-int main(void) 
-{
+int main(void){
 	int numRows;
 
 	printf("Enter the number of rows in the triangle: ");
