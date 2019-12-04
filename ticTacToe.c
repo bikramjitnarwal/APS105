@@ -5,8 +5,7 @@
 #include <stdbool.h>
 
 // Prints the game board 
-void printBoard(int board[], int playerA, int playerB) 
-{
+void printBoard(int board[], int playerA, int playerB){
 	for(int i = 0; i < 9; i++){
 		// If the value at index i is 10, that means it is player A's spot 
 		if(board[i] == playerA){
@@ -25,8 +24,7 @@ void printBoard(int board[], int playerA, int playerB)
 }
 
 // Ensures that each position is not claimed twice 
-int requestValidInput(int board[], int playerA, int playerB) 
-{
+int requestValidInput(int board[], int playerA, int playerB){
 	int index;
 	scanf("%d", &index);
 
@@ -51,8 +49,7 @@ int requestValidInput(int board[], int playerA, int playerB)
 }
 
 // Functions checks every possibly win (3 in a row) for either player and returns the winner 
-int checkForWinner(int board[], int playerA, int playerB) 
-{
+int checkForWinner(int board[], int playerA, int playerB){
 	for(int i = 0; i < 3; i++){
 		if(playerA == board[i + 0] && playerA == board[i + 3] && playerA == board[i + 6]){
 			return playerA;
@@ -90,8 +87,7 @@ int checkForWinner(int board[], int playerA, int playerB)
 }
 
 // Checks if every position has been filled
-bool checkforStalemate(int board[]) 
-{
+bool checkforStalemate(int board[]){
 	for(int index = 0; index < 9; index++){
 		// 0 means no one has claimed that position 
 		if(board[index] == 0){
@@ -101,8 +97,7 @@ bool checkforStalemate(int board[])
 	return true;
 }
 
-int main(void) 
-{
+int main(void){
 	int board[9], i, validIndex, winner;
 	const int playerA = 10;
 	const int playerB = 11;
