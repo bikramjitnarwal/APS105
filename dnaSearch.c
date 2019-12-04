@@ -7,8 +7,7 @@
 #include <stdbool.h>
 #include <stdlib.h>
 
-void readString(int length, int string[])
-{
+void readString(int length, int string[]){
 	int num;
 	printf("Enter %d characters (one of 12345) as a search string: ", length);
 	// Gets the numbers into the string array
@@ -19,8 +18,7 @@ void readString(int length, int string[])
 }
 
 // Function checks for valid input 
-bool checkValid(int length, int string[])
-{
+bool checkValid(int length, int string[]){
 	for(int i=0;i<length;i++){
 		//Checks for valid numbers
 		if((string[i]!=1)&&(string[i]!=2)&&(string[i]!=3)&&(string[i]!=4)&&(string[i]!=5)){
@@ -34,8 +32,7 @@ bool checkValid(int length, int string[])
 }
 
 // Searches and prints the matches 
-void search(int length, int string[])
-{
+void search(int length, int string[]){
 	int DNA[] = {1, 2, 4, 2, 2, 2, 1, 4, 4, 2, 3, 4, 4, 4, 2, 1, 4,
 	1, 3, 3, 2, 1, 3, 2, 1, 1, 2, 2, 2, 3, 4, 1, 3, 1, 2, 1, 4,
 	4, 4, 1, 1, 3, 1, 4, 2, 4, 4, 1, 4, 4, 1, 4, 4, 4, 4, 1, 1,
@@ -57,8 +54,7 @@ void search(int length, int string[])
 	}
 }
 
-int main()
-{
+int main(){
 	int length, *searchString;
 
 	printf("Enter length of DNA string to match: ");
