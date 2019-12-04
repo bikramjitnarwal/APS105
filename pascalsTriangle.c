@@ -16,8 +16,7 @@ int factorial(int n){
 }
 
 //Computes the n choose r 
-int choose(int n, int r)
-{
+int choose(int n, int r){
     int answer;
     
 	//The calculation is assigned to an answer variable
