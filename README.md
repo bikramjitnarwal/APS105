@@ -1,5 +1,7 @@
 # C_Programming
 
+To future students: I know looking at my code can help finish your assignments, but it can also get you an academic offense (even if you use a little part of it). It also does not help you learn (trust me on this one).
+
 DNA Search: C program that searches through the an array that contains a sequence of numbers in an array.
 
 Encryption: Program which asks a user to enter an encrypted 3-digit code and then prints the real 3-digit code.
